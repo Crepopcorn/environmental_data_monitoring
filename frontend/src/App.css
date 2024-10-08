@@ -1,0 +1,69 @@
+/* Set the background image for the entire page */
+body {
+    background: url('components/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main container with a semi-transparent background */
+.App {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto; /* Center the main container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Style input boxes to have a uniform size */
+.input-box {
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+/* Style form and table headers */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #555;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Highlight row on selection */
+tr.highlight {
+    background-color: #a0a0a0; /* Darker highlight color */
+}
+
+/* Style the error message */
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
