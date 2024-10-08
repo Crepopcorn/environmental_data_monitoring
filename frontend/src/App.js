@@ -1,9 +1,8 @@
-// frontend/src/App.js
 import React, { useEffect, useState } from 'react';
 import SensorChart from './components/SensorChart';
 import DataInputForm from './components/DataInputForm';
 import DataTable from './components/DataTable';
-import LocationManager from './components/LocationManager'; // Import LocationManager
+import LocationManager from './components/LocationManager';
 import './App.css';
 import socket from './socket';
 
@@ -11,7 +10,7 @@ function App() {
     const [data, setData] = useState([]);
     const [error, setError] = useState(null);
     const [selectedIndex, setSelectedIndex] = useState(null);
-    const [currentLocation, setCurrentLocation] = useState(''); // State to manage the current location
+    const [currentLocation, setCurrentLocation] = useState('');
 
     useEffect(() => {
         if (!currentLocation) return;
@@ -67,7 +66,7 @@ function App() {
                 throw new Error('Failed to delete data');
             }
             setData(prevData => prevData.filter((_, i) => i !== index));
-            socket.emit('delete_data', itemToDelete._id); // Notify clients about the deletion
+            socket.emit('delete_data', itemToDelete._id); // Notify clients about deletion
         })
         .catch(err => {
             console.error('Failed to delete data:', err);
