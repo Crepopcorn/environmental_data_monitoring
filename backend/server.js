@@ -1,4 +1,4 @@
-// server.js
+
 const express = require('express');
 const app = express();
 const cors = require('cors');
@@ -31,7 +31,7 @@ async function connectToDatabase() {
     }
 }
 
-// Endpoint to get data for a specific location
+// Endpoint (get data)
 app.get('/api/data/:location', async (req, res) => {
     const location = req.params.location;
     try {
@@ -42,7 +42,7 @@ app.get('/api/data/:location', async (req, res) => {
     }
 });
 
-// Endpoint to manage locations
+// Endpoint (manage)
 app.get('/api/locations', async (req, res) => {
     try {
         const locations = await collection.distinct('location');
@@ -60,7 +60,7 @@ app.post('/api/locations', async (req, res) => {
     res.status(201).json({ message: 'Location added successfully' });
 });
 
-// Add data endpoint with location
+// Add data endpoint
 app.post('/api/data', async (req, res) => {
     try {
         const newData = req.body;
@@ -73,7 +73,7 @@ app.post('/api/data', async (req, res) => {
     }
 });
 
-// Delete endpoint to remove data by ID
+// Delete endpoint
 app.delete('/api/data/:id', async (req, res) => {
     try {
         const id = req.params.id;
