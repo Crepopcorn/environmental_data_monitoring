@@ -8,7 +8,7 @@
 The Environmental Data Monitoring System is a web application that allows users to monitor real-time environmental data. The application supports data visualization and efficient data handling. It is built using the MERN (MongoDB, Express.js, React, Node.js) stack and features a user-friendly interface with robust backend support to ensure smooth and accurate data management.
 
 The deployed appliction can be found from aws ec2: <br/>
-https://ec2-34-230-50-244.compute-1.amazonaws.com/
+http://ec2-34-230-50-244.compute-1.amazonaws.com/
 
 (some of the project in backend is written in python, because initially use python flask beside node.js, and some of the imported file are in .py, but i use nodejs to make it a larger web applications to avoid some issues.)
 
