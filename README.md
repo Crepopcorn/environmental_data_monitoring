@@ -22,7 +22,7 @@ https://ec2-34-230-50-244.compute-1.amazonaws.com/
 
 ## Web Page Layout
 
-#### After selecting a new location/ existing location, it shows graph
+#### After adding a new location and select it/ select existing location, it shows the recorded chart
 ![env_page_1](https://github.com/Crepopcorn/environmental_data_monitoring/blob/main/images/env1.jpg)
 
 #### If clicking any of the point on graph, it will direct user to the specified data log.
