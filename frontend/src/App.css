@@ -1,4 +1,4 @@
-/* Set the background image for the entire page */
+/* bg image */
 body {
     background: url('components/bg.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -6,7 +6,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Style the main container with a semi-transparent background */
+/* container of bg image */
 .App {
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     padding: 20px;
@@ -18,7 +18,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
 }
 
-/* Style input boxes to have a uniform size */
+/* Style input boxes*/
 .input-box {
     width: 200px;
     padding: 5px;
@@ -26,7 +26,7 @@ body {
     box-sizing: border-box;
 }
 
-/* Style form and table headers */
+/*main body style */
 h1 {
     text-align: center;
     color: #333;
@@ -37,7 +37,6 @@ h2 {
     color: #555;
 }
 
-/* Style the table */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -56,9 +55,8 @@ tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-/* Highlight row on selection */
 tr.highlight {
-    background-color: #a0a0a0; /* Darker highlight color */
+    background-color: #a0a0a0;
 }
 
 /* Style the error message */
