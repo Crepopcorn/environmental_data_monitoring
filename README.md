@@ -42,8 +42,6 @@ https://ec2-34-230-50-244.compute-1.amazonaws.com/
 - Responsive Design: User-friendly interface compatible with various devices.
 - Dynamic Components: Real-time data updates using React and Socket.IO.
 
-#### Security Features:
-- CORS: Cross-Origin Resource Sharing is configured for secure data requests.
 
 ## Getting Started
 
