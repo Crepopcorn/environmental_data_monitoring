@@ -1,10 +1,10 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2';
-import 'chartjs-adapter-moment'; // Import moment adapter for Chart.js
+import 'chartjs-adapter-moment';
 import { Chart, TimeScale } from 'chart.js';
 import 'chart.js/auto';
 
-Chart.register(TimeScale); // Register the time scale
+Chart.register(TimeScale); // Register time scale
 
 function SensorChart({ data, onPointClick }) {
     const chartData = {
@@ -34,9 +34,9 @@ function SensorChart({ data, onPointClick }) {
                 time: {
                     unit: 'day',
                     displayFormats: {
-                        day: 'DD/MM/YYYY', // Change to dd/mm/yyyy format
+                        day: 'DD/MM/YYYY',
                     },
-                    tooltipFormat: 'DD/MM/YYYY', // Change tooltip to dd/mm/yyyy format
+                    tooltipFormat: 'DD/MM/YYYY',
                 },
                 ticks: {
                     autoSkip: false,
