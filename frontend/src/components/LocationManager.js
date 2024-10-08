@@ -1,4 +1,3 @@
-// frontend/src/components/LocationManager.js
 import React, { useState, useEffect } from 'react';
 
 function LocationManager({ setCurrentLocation }) {
