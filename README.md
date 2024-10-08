@@ -1,7 +1,7 @@
 # environmental_data_monitoring
 
 
-### This web application is designed to meet all of the project's requirements, providing a comprehensive environmental data monitoring solution.
+### This web application is designed to meet all of the club task, to provide a usable web application for environmental monitoring.
 
 ---
 
@@ -84,7 +84,7 @@ Create a `.env` file in the root directory with the following variables:
 
 ```
 MONGO_URI=mongodb://localhost:27017/your-database-name
-PORT=5000
+PORT=4000
 ```
 
 > **Note:** Replace `your-database-name` with the name of the MongoDB database you want to use (e.g., `environmental_data`).
