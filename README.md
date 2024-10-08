@@ -5,7 +5,7 @@
 
 ---
 
-The Environmental Data Monitoring System is a web application that allows users to monitor real-time environmental data. The application supports user interaction, data visualization, and efficient data handling. The project is built using the MERN (MongoDB, Express.js, React, Node.js) stack and features a user-friendly interface with robust backend support to ensure smooth and accurate data management.
+The Environmental Data Monitoring System is a web application that allows users to monitor real-time environmental data. The application supports data visualization and efficient data handling. It is built using the MERN (MongoDB, Express.js, React, Node.js) stack and features a user-friendly interface with robust backend support to ensure smooth and accurate data management.
 
 The deployed appliction can be found from aws ec2: <br/>
 https://ec2-34-230-50-244.compute-1.amazonaws.com/
@@ -20,24 +20,21 @@ https://ec2-34-230-50-244.compute-1.amazonaws.com/
 
 ## Web Page Layout
 
-#### Login Page
-![login_page](https://github.com/Crepopcorn/environmental_data_monitoring/blob/main/images/env1.jpg)
+#### After selecting a new location/ existing location, it shows graph
+![env_page_1](https://github.com/Crepopcorn/environmental_data_monitoring/blob/main/images/env1.jpg)
 
-#### Data Visualization Page
-![data_page](https://github.com/Crepopcorn/environmental_data_monitoring/blob/main/images/env2.jpg)
+#### If clicking any of the point on graph, it will direct user to the specified data log.
+![env_page_2](https://github.com/Crepopcorn/environmental_data_monitoring/blob/main/images/env2.jpg)
 
-![data2_page](https://github.com/Crepopcorn/environmental_data_monitoring/blob/main/images/env3.jpg)
+#### If clicking any of the other location, it will direct user to the specified location.
+![env_page_3](https://github.com/Crepopcorn/environmental_data_monitoring/blob/main/images/env3.jpg)
 ## Features
 
-#### User Management:
-- Register: New user signup.
-- Login: Secure login for accessing data.
-- Logout: Safely log out of the application.
 
 #### Environmental Data Monitoring:
-- Real-time Data: Display and update environmental data in real-time.
 - Data Visualization: Interactive charts and graphs for better data analysis.
 - Data Logs: View historical environmental data logs.
+- Log Entry: USer can submit, edit, delete new log through the website (in case it didn't, refresh the website after submitting it)
 
 #### Interactive UI:
 - Responsive Design: User-friendly interface compatible with various devices.
@@ -45,8 +42,6 @@ https://ec2-34-230-50-244.compute-1.amazonaws.com/
 
 #### Security Features:
 - CORS: Cross-Origin Resource Sharing is configured for secure data requests.
-- Validation: Input validation to prevent invalid data entries.
-- Authentication: Secure authentication for user access.
 
 ## Getting Started
 
@@ -124,8 +119,6 @@ Navigate to `http://localhost:3000` in your browser to access the application.
 
 ## Usage
 
-- Register: Create an account to start monitoring data.
-- Login: Access real-time environmental data after logging in.
 - View Data: Monitor current and historical data trends on the dashboard.
 
 ## File and Directory Structure
