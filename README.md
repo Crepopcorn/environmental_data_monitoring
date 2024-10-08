@@ -1,7 +1,7 @@
 # environmental_data_monitoring
 
 
-### This web application is designed to meet all of the club task, to provide a usable web application for environmental monitoring.
+### This web application is designed to use for club task, to provide a usable web application for environmental monitoring.
 
 ---
 
