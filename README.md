@@ -10,6 +10,8 @@ The Environmental Data Monitoring System is a web application that allows users 
 The deployed appliction can be found from aws ec2: <br/>
 https://ec2-34-230-50-244.compute-1.amazonaws.com/
 
+(most of the project is python, because initially use python flask beside node.js, and some of the imported file are in .py)
+
 ---
 
 #### Languages used: &ensp; JavaScript, HTML, CSS
